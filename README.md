@@ -2,14 +2,14 @@
 
 A Machine Learning web application that predicts whether a customer is likely to default on their credit card payment based on financial and demographic details.
 
-**📌 Project Overview**
+📌 Project Overview
 
 This project uses a Machine Learning classification model to predict credit card default risk.
 The model is trained on the UCI Credit Card dataset and deployed using a Flask web application.
 
 It helps financial institutions assess customer risk and make informed lending decisions.
 
-**📂 Dataset**
+**📂 DATASET**
 
 Dataset Name: UCI Credit Card Default Dataset
 
@@ -71,12 +71,19 @@ model.pkl
 
 Credit-Card-Default-Prediction/
 │
+
 ├── app.py                          # Flask Application
+
 ├── model.pkl                       # Trained ML Model
+
 ├── UCI_Credit_Card.csv             # Dataset
+
 ├── Credit Card Default Prediction Using Python.ipynb  # Model Training Notebook
+
 ├── templates/
+
 │   └── index.html                  # Frontend HTML
+
 └── README.md                       # Project Documentation
 
 **⚙️ How It Works**
@@ -106,7 +113,6 @@ cd credit-card-default-prediction
 2️⃣ Install Dependencies
 
 pip install -r requirements.txt
-
 
 If requirements.txt is not available:
 
@@ -156,7 +162,7 @@ Add real-time database support
 
 Improve model accuracy using feature engineering
 
-**🎯 Use Cases**
+**🎯Use Cases**
 
 Banks & Financial Institutions
 
@@ -166,11 +172,12 @@ Risk Management Systems
 
 FinTech Applications
 
-**👨‍💻 Author**
+👨‍💻 Author
 
 Sujal
+
 CSE (AIML) Engineer
 
-**📜 License**
+📜 License
 
 This project is for educational purposes only.
