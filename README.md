@@ -68,24 +68,17 @@ The trained model is saved as:
 model.pkl
 
 **🗂️ Project Structure**
-
+```
 Credit-Card-Default-Prediction/
 │
-
 ├── app.py                          # Flask Application
-
 ├── model.pkl                       # Trained ML Model
-
 ├── UCI_Credit_Card.csv             # Dataset
-
 ├── Credit Card Default Prediction Using Python.ipynb  # Model Training Notebook
-
 ├── templates/
-
 │   └── index.html                  # Frontend HTML
-
 └── README.md                       # Project Documentation
-
+```
 **⚙️ How It Works**
 
 User enters financial details in the web form.
